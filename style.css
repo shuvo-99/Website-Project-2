@@ -1,0 +1,66 @@
+/* Font  */
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Playball&family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Playball&family=Poppins:wght@600&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.title {
+  /* margin-left: 50px; */
+  padding-left: 100px;
+}
+.header1 {
+  width: 582px;
+  height: 270px;
+  /* background-color: aquamarine; */
+}
+.header1-border {
+  width: 528px;
+  height: 133px;
+
+  /* background-color: aqua; */
+  font-size: 45px;
+  margin: 5px;
+}
+
+.header1-info-border {
+  /* @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Playball&family=Poppins:wght@600&display=swap"); */
+
+  width: 505px;
+  height: 60.9px;
+  font-weight: 600;
+
+  /* background-color: aqua; */
+  font-size: 16px;
+  margin-top: 0px;
+}
+.header1-button {
+  width: 196px;
+  height: 44px;
+
+  background-color: #e02c6d;
+  border-radius: 20px;
+}
+
+.header1-button-text {
+  font-size: 16px;
+  padding: 10px 25px;
+  color: white;
+}
+.header1-button-icon {
+  margin-left: 5px;
+}
+
+.section1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+
+.section1-img {
+  width: 440px;
+  height: 414px;
+}
