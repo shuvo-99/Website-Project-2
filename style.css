@@ -82,6 +82,11 @@ body {
       Products
 --------------------- */
 
+.product {
+  display: flex;
+  justify-content: center;
+}
+
 .container {
   width: 1047px;
   height: 1662px;
@@ -97,6 +102,8 @@ body {
 .product-frames {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
 }
 
 .product-frame {
@@ -152,4 +159,18 @@ body {
   font-weight: 700;
   font-size: 14px;
   color: #787885;
+}
+
+.product-next-page {
+  font-size: 16;
+  text-align: right;
+  color: #e02c6d;
+  margin-top: 50px;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
 }
