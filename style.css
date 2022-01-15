@@ -77,11 +77,26 @@ body {
   height: 110px;
   background-color: aqua;
 }
+
+/* ------------------
+      Products
+--------------------- */
+
+.container {
+  width: 1047px;
+  height: 1662px;
+}
+
 .section2-title {
   font-size: 28px;
   text-align: center;
   font-weight: 600;
   font-size: 28px;
+}
+
+.product-frames {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .product-frame {
