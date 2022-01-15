@@ -85,6 +85,7 @@ body {
 .product {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .container {
@@ -166,11 +167,50 @@ body {
   text-align: right;
   color: #e02c6d;
   margin-top: 50px;
+  /* margin-bottom: 50px; */
 }
 
 footer {
   text-align: center;
-  padding: 3px;
-  background-color: DarkSalmon;
+  /* width: auto; */
+  padding-top: 10px;
+  padding-bottom: 30px;
+  /* margin-bottom: 20px; */
+
+  background-color: rgb(4, 4, 36);
   color: white;
 }
+
+.footer-text1 {
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+
+.footer-text2 {
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  margin-top: 3px;
+}
+
+.fa-instagram {
+  padding-right: 10px;
+}
+.fa-globe {
+  padding-right: 10px;
+}
+.fa-twitter {
+  padding-right: 10px;
+}
+
+/* ------------------
+    Media Queries
+--------------------- */
+
+/* Mobile */
+@media only screen and (max-width:688px){
+  .title{
+    text-align: center;
+  }
+  /* .container{
+      width: 100%;
+  } */
