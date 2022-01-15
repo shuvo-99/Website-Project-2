@@ -1,7 +1,7 @@
 /* Font  */
 
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Playball&family=Poppins:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Playball&family=Poppins:wght@600&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Playball&family=Poppins:wght@600&display=swap"); */
 
 body {
   font-family: "Poppins", sans-serif;
@@ -63,4 +63,45 @@ body {
 .section1-img {
   width: 440px;
   height: 414px;
+}
+
+/* .section-adv {
+  width: 1110px;
+  height: 110px;
+  background-color: aqua;
+} */
+
+.adv-border {
+  width: 1110px;
+  height: 110px;
+  background-color: aqua;
+}
+.section2-title {
+  font-size: 28px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.product-frame {
+  width: 329px;
+  height: 476px;
+  border: 2px solid gold;
+  /* align-items: center; */
+}
+
+.product-thumbnail {
+  width: 300px;
+  height: 256px;
+}
+
+.product-name {
+  font-weight: 400;
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.product-price {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
 }
